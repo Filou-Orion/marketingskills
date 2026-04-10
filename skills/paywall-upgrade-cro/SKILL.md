@@ -219,6 +219,18 @@ What you've accomplished:
 
 ---
 
+## Tool Integrations
+
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key billing and analytics tools:
+
+| Tool | Best For | MCP | Guide |
+|------|----------|:---:|-------|
+| **Stripe** | Subscription billing, upgrade/downgrade flows | ✓ | [stripe.md](../../tools/integrations/stripe.md) |
+| **Paddle** | Merchant of record, global pricing | - | [paddle.md](../../tools/integrations/paddle.md) |
+| **PostHog** | Upgrade funnel analysis, feature flag paywalls | - | [posthog.md](../../tools/integrations/posthog.md) |
+
+---
+
 ## Related Skills
 
 - **churn-prevention**: For cancel flows, save offers, and reducing churn post-upgrade

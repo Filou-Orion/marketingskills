@@ -247,6 +247,18 @@ Recommended pages to create with priority order based on search volume.
 
 ---
 
+## Tool Integrations
+
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key competitive intelligence tools:
+
+| Tool | Best For | MCP | Guide |
+|------|----------|:---:|-------|
+| **SimilarWeb** | Competitor traffic analysis, benchmarking | - | [similarweb.md](../../tools/integrations/similarweb.md) |
+| **SparkToro** | Audience overlap, competitor audience research | - | [sparktoro.md](../../tools/integrations/sparktoro.md) |
+| **Semrush** | Competitor keyword and content gap analysis | - | [semrush.md](../../tools/integrations/semrush.md) |
+
+---
+
 ## Related Skills
 
 - **programmatic-seo**: For building competitor pages at scale

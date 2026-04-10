@@ -67,25 +67,140 @@ Before implementing schema, understand:
 
 ---
 
-## Quick Reference
+## Inline Examples
 
-### Organization (Company Page)
-Required: name, url
-Recommended: logo, sameAs (social profiles), contactPoint
+### Organization
 
-### Article/BlogPosting
-Required: headline, image, datePublished, author
-Recommended: dateModified, publisher, description
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Your Company",
+  "url": "https://yoursite.com",
+  "logo": "https://yoursite.com/logo.png",
+  "sameAs": [
+    "https://twitter.com/yourcompany",
+    "https://linkedin.com/company/yourcompany"
+  ]
+}
+```
 
-### Product
-Required: name, image, offers (price + availability)
-Recommended: sku, brand, aggregateRating, review
+### Article / BlogPosting
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to Optimize Your Pricing Page",
+  "image": "https://yoursite.com/images/pricing-guide.jpg",
+  "datePublished": "2025-03-15",
+  "dateModified": "2025-06-01",
+  "author": {
+    "@type": "Person",
+    "name": "Jane Smith",
+    "url": "https://yoursite.com/team/jane"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Your Company",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://yoursite.com/logo.png"
+    }
+  }
+}
+```
 
 ### FAQPage
-Required: mainEntity (array of Question/Answer pairs)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is your free trial?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer a 14-day free trial with full access. No credit card required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I cancel anytime?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can cancel your subscription at any time from your account settings."
+      }
+    }
+  ]
+}
+```
 
 ### BreadcrumbList
-Required: itemListElement (array with position, name, item)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://yoursite.com" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://yoursite.com/blog" },
+    { "@type": "ListItem", "position": 3, "name": "Pricing Guide" }
+  ]
+}
+```
+
+### SoftwareApplication (SaaS)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Your Product",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "29",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2026-12-31"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "247"
+  }
+}
+```
+
+For more examples (Product, HowTo, Event, LocalBusiness, Next.js implementation): See [references/schema-examples.md](references/schema-examples.md)
+
+---
+
+## Troubleshooting
+
+### Rich Results Not Appearing
+
+1. **Validate first**: Run page through [Google Rich Results Test](https://search.google.com/test/rich-results) — fix all errors
+2. **Check eligibility**: Not all schema types trigger rich results. Google only supports a specific list
+3. **Wait**: Rich results can take days to weeks to appear after deployment
+4. **Check Search Console**: Enhancements tab shows schema status and errors per type
+5. **Content mismatch**: Schema must match visible page content — Google ignores schema for hidden content
+6. **Page not indexed**: Schema only works on indexed pages. Check indexing status first
+
+### Common Mistakes
+
+| Mistake | Fix |
+|---------|-----|
+| Schema data doesn't match visible content | Always generate schema from actual page content |
+| Using deprecated schema types | Check Google's structured data documentation for supported types |
+| Missing required properties | Every type has required fields — check the table above |
+| Dates not in ISO 8601 format | Use `YYYY-MM-DD` or `YYYY-MM-DDTHH:MM:SS+00:00` |
+| URLs not fully qualified | Always use `https://yoursite.com/path`, never relative paths |
+| Duplicate schema on same page | Use `@graph` to combine types, don't add multiple `<script>` blocks |
+| Rating values out of range | `ratingValue` must be between `bestRating` and `worstRating` |
 
 ---
 

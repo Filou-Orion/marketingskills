@@ -319,6 +319,16 @@ Instead of guessing, analyze what's working for top creators in your niche:
 
 ---
 
+## Tool Integrations
+
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key social tools:
+
+| Tool | Best For | MCP | Guide |
+|------|----------|:---:|-------|
+| **Buffer** | Multi-platform scheduling and analytics | - | [buffer.md](../../tools/integrations/buffer.md) |
+
+---
+
 ## Related Skills
 
 - **copywriting**: For longer-form content that feeds social

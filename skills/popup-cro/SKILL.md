@@ -445,6 +445,17 @@ Ideas to A/B test with expected outcomes
 
 ---
 
+## Tool Integrations
+
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key testing tools:
+
+| Tool | Best For | MCP | Guide |
+|------|----------|:---:|-------|
+| **Optimizely** | A/B testing popup variations | - | [optimizely.md](../../tools/integrations/optimizely.md) |
+| **PostHog** | Popup funnel analytics, feature flags for targeting | - | [posthog.md](../../tools/integrations/posthog.md) |
+
+---
+
 ## References
 
 - [Trigger Strategies](references/trigger-strategies.md): Detailed trigger configurations with conversion benchmarks, exit intent alternatives for mobile, scroll depth by page type, conflict resolution rules

@@ -220,6 +220,17 @@ Identifies which features customers value most:
 
 ---
 
+## Tool Integrations
+
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key payment and billing tools:
+
+| Tool | Best For | MCP | Guide |
+|------|----------|:---:|-------|
+| **Stripe** | Payment processing, subscription billing, pricing experiments | ✓ | [stripe.md](../../tools/integrations/stripe.md) |
+| **Paddle** | Merchant of record, global tax handling | - | [paddle.md](../../tools/integrations/paddle.md) |
+
+---
+
 ## Related Skills
 
 - **churn-prevention**: For cancel flows, save offers, and reducing revenue churn

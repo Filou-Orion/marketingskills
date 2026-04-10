@@ -343,6 +343,18 @@ Even small changelog updates remind customers your product is evolving. This bui
 
 ---
 
+## Tool Integrations
+
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key launch tools:
+
+| Tool | Best For | MCP | Guide |
+|------|----------|:---:|-------|
+| **Buffer** | Scheduling launch social posts across platforms | - | [buffer.md](../../tools/integrations/buffer.md) |
+| **SparkToro** | Finding audience overlap for borrowed channel outreach | - | [sparktoro.md](../../tools/integrations/sparktoro.md) |
+| **Introw** | Partner deal registration, affiliate commissions | ✓ | [introw.md](../../tools/integrations/introw.md) |
+
+---
+
 ## References
 
 - [Launch Timeline Templates](references/launch-timeline-templates.md): Week-by-week checklists for new product (8 weeks), feature (4 weeks), Product Hunt (3 weeks), and beta/early access (6 weeks) launches

@@ -296,6 +296,18 @@ When creating a lead magnet strategy, provide:
 
 ---
 
+## Tool Integrations
+
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key capture and delivery tools:
+
+| Tool | Best For | MCP | Guide |
+|------|----------|:---:|-------|
+| **Typeform** | Interactive lead magnet forms, quizzes | - | [typeform.md](../../tools/integrations/typeform.md) |
+| **Mailchimp** | Email delivery, list management | ✓ | [mailchimp.md](../../tools/integrations/mailchimp.md) |
+| **Resend** | Transactional delivery of lead magnets | ✓ | [resend.md](../../tools/integrations/resend.md) |
+
+---
+
 ## Related Skills
 
 - **free-tool-strategy**: For interactive tools as lead magnets (calculators, graders, quizzes)

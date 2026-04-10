@@ -346,6 +346,17 @@ Over time, your playbook becomes a library of proven growth patterns specific to
 
 ---
 
+## Tool Integrations
+
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key experimentation tools:
+
+| Tool | Best For | MCP | Guide |
+|------|----------|:---:|-------|
+| **Optimizely** | Enterprise A/B testing, feature flags | - | [optimizely.md](../../tools/integrations/optimizely.md) |
+| **PostHog** | Open-source experimentation, feature flags, analytics | - | [posthog.md](../../tools/integrations/posthog.md) |
+
+---
+
 ## Related Skills
 
 - **page-cro**: For generating test ideas based on CRO principles

@@ -212,6 +212,18 @@ When recommending experiments, consider tests for:
 
 ---
 
+## Tool Integrations
+
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key onboarding tools:
+
+| Tool | Best For | MCP | Guide |
+|------|----------|:---:|-------|
+| **Pendo** | In-app guides, feature adoption, product analytics | - | [pendo.md](../../tools/integrations/pendo.md) |
+| **Intercom** | In-app messaging, onboarding tours, help center | - | [intercom.md](../../tools/integrations/intercom.md) |
+| **PostHog** | Activation funnel analysis, session replay | - | [posthog.md](../../tools/integrations/posthog.md) |
+
+---
+
 ## Related Skills
 
 - **signup-flow-cro**: For optimizing the signup before onboarding

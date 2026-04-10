@@ -421,6 +421,17 @@ Ideas to A/B test with expected outcomes
 
 ---
 
+## Tool Integrations
+
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key form and analytics tools:
+
+| Tool | Best For | MCP | Guide |
+|------|----------|:---:|-------|
+| **Typeform** | Interactive, conversational forms | - | [typeform.md](../../tools/integrations/typeform.md) |
+| **Hotjar** | Form analytics, heatmaps, session recordings | - | [hotjar.md](../../tools/integrations/hotjar.md) |
+
+---
+
 ## References
 
 - [Field Type Patterns](references/field-type-patterns.md): Best practices for every form field type (text, select, checkbox, file upload, date, CAPTCHA) with conversion impact data and mobile keyboard mapping
