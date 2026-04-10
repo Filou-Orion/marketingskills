@@ -421,6 +421,12 @@ Ideas to A/B test with expected outcomes
 
 ---
 
+## References
+
+- [Field Type Patterns](references/field-type-patterns.md): Best practices for every form field type (text, select, checkbox, file upload, date, CAPTCHA) with conversion impact data and mobile keyboard mapping
+
+---
+
 ## Related Skills
 
 - **signup-flow-cro**: For account creation forms

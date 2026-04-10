@@ -471,14 +471,6 @@ This iterative process ensures each edit doesn't create new problems while respe
 
 ---
 
-## Content Refresh Editing
-
-Copy editing isn't just for new content. Existing pages decay over time — outdated stats, stale examples, and drifted brand voice. Use the content refresh framework when traffic is declining, data is stale, or the product has changed.
-
-**For the full refresh checklist, refresh vs. rewrite decision matrix, and cadence guide**: See [references/content-refresh.md](references/content-refresh.md)
-
----
-
 ## Task-Specific Questions
 
 1. What's the goal of this copy? (Awareness, conversion, retention)

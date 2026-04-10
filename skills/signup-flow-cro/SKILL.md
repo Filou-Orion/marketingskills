@@ -351,6 +351,13 @@ Organized by:
 
 ---
 
+## References
+
+- [Flow Patterns](references/flow-patterns.md): Six signup flow architectures (single-step, social auth, multi-step, waitlist, product-first, guided) with wireframes, benchmarks, and anti-patterns
+- [Mobile Optimization](references/mobile-optimization.md): Mobile form layout rules, input type/keyboard mapping, social auth on mobile, and device testing checklist
+
+---
+
 ## Related Skills
 
 - **onboarding-cro**: For optimizing what happens after signup

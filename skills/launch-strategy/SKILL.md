@@ -343,6 +343,12 @@ Even small changelog updates remind customers your product is evolving. This bui
 
 ---
 
+## References
+
+- [Launch Timeline Templates](references/launch-timeline-templates.md): Week-by-week checklists for new product (8 weeks), feature (4 weeks), Product Hunt (3 weeks), and beta/early access (6 weeks) launches
+
+---
+
 ## Related Skills
 
 - **marketing-ideas**: For additional launch tactics (#22 Product Hunt, #23 Early Access Referrals)

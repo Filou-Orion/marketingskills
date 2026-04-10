@@ -1,6 +1,6 @@
 ---
 name: marketing-psychology
-description: "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'social proof,' 'scarcity,' 'loss aversion,' 'framing,' or 'nudge.' Use this whenever someone wants to understand or leverage how people think and make decisions in a marketing context."
+description: "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'social proof,' 'scarcity,' 'loss aversion,' 'framing,' or 'nudge.' Use this whenever someone wants to understand or leverage how people think and make decisions in a marketing context. For writing copy that applies these principles, see copywriting. For testing psychological approaches, see ab-test-setup."
 metadata:
   version: 1.1.0
 ---
@@ -443,6 +443,12 @@ When facing a marketing challenge, consider:
 3. Where in the journey (awareness → consideration → decision) is this?
 4. What's currently preventing the desired action?
 5. Have you tested this with real customers?
+
+---
+
+## References
+
+- [Models Quick Reference](references/models-quick-reference.md): One-line summaries of all mental models plus lookup tables by marketing challenge (low conversions, price objections, trust, churn, growth stall)
 
 ---
 
