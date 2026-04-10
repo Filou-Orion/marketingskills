@@ -445,6 +445,13 @@ Ideas to A/B test with expected outcomes
 
 ---
 
+## References
+
+- [Trigger Strategies](references/trigger-strategies.md): Detailed trigger configurations with conversion benchmarks, exit intent alternatives for mobile, scroll depth by page type, conflict resolution rules
+- [Copy Templates](references/copy-templates.md): Ready-to-customize copy for email capture, lead magnet, discount, exit intent, announcement, and survey popups
+
+---
+
 ## Related Skills
 
 - **lead-magnets**: For planning lead magnets to promote via popups

@@ -141,3 +141,10 @@ Depending on what the user needs, produce one of:
 - **Health Audit Report** — Current metrics, diagnosis, top 3 priorities to fix
 
 Always be specific. Generic advice ("be consistent," "provide value") is not useful. Give the user something they can act on today.
+
+---
+
+## References
+
+- [Platform Comparison](references/platform-comparison.md): Detailed matrix of Discord, Slack, Circle, Reddit, Discourse, and Facebook Groups with decision framework and migration guidance
+- [Engagement Playbooks](references/engagement-playbooks.md): Stage-by-stage engagement tactics (0–50, 50–500, 500–5K, 5K+), recurring ritual templates, conversation starters, and power user identification
