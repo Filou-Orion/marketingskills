@@ -257,6 +257,20 @@ Don't ask all five at once — lead with #1 and #2, then follow up as needed.
 
 ---
 
+## Tool Integrations
+
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key research and enrichment tools:
+
+| Tool | Best For | MCP | Guide |
+|------|----------|:---:|-------|
+| **Typeform** | Interactive surveys, customer feedback forms | - | [typeform.md](../../tools/integrations/typeform.md) |
+| **Apollo** | Prospecting, contact data for interview recruitment | - | [apollo.md](../../tools/integrations/apollo.md) |
+| **Clearbit** | Company and person enrichment | - | [clearbit.md](../../tools/integrations/clearbit.md) |
+| **ZoomInfo** | B2B contact and intent data | ✓ | [zoominfo.md](../../tools/integrations/zoominfo.md) |
+| **Clay** | Waterfall enrichment, research workflows | ✓ | [clay.md](../../tools/integrations/clay.md) |
+
+---
+
 ## Related Skills
 
 | When to hand off | Skill |

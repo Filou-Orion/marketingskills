@@ -173,6 +173,18 @@ When recommending experiments, consider tests for:
 
 ---
 
+## Tool Integrations
+
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key CRO tools:
+
+| Tool | Best For | MCP | Guide |
+|------|----------|:---:|-------|
+| **Hotjar** | Heatmaps, session recordings, user feedback | - | [hotjar.md](../../tools/integrations/hotjar.md) |
+| **Optimizely** | A/B testing page variations | - | [optimizely.md](../../tools/integrations/optimizely.md) |
+| **PostHog** | Product analytics, session replay, feature flags | - | [posthog.md](../../tools/integrations/posthog.md) |
+
+---
+
 ## Related Skills
 
 - **signup-flow-cro**: If the issue is in the signup process itself

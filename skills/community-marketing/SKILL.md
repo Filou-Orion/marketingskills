@@ -144,6 +144,17 @@ Always be specific. Generic advice ("be consistent," "provide value") is not use
 
 ---
 
+## Tool Integrations
+
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key community tools:
+
+| Tool | Best For | MCP | Guide |
+|------|----------|:---:|-------|
+| **Buffer** | Scheduling community content across social platforms | - | [buffer.md](../../tools/integrations/buffer.md) |
+| **Zapier** | Automating community workflows (welcome messages, alerts) | ✓ | [zapier.md](../../tools/integrations/zapier.md) |
+
+---
+
 ## References
 
 - [Platform Comparison](references/platform-comparison.md): Detailed matrix of Discord, Slack, Circle, Reddit, Discourse, and Facebook Groups with decision framework and migration guidance

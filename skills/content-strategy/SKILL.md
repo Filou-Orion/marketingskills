@@ -354,6 +354,19 @@ Visual or structured representation of how content interconnects.
 
 ---
 
+## Tool Integrations
+
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key content and SEO tools:
+
+| Tool | Best For | MCP | Guide |
+|------|----------|:---:|-------|
+| **Semrush** | Keyword research, content gap analysis, competitor content | - | [semrush.md](../../tools/integrations/semrush.md) |
+| **Ahrefs** | Content explorer, backlink analysis, keyword difficulty | - | [ahrefs.md](../../tools/integrations/ahrefs.md) |
+| **Google Search Console** | Search performance, top queries, indexing | - | [google-search-console.md](../../tools/integrations/google-search-console.md) |
+| **Supermetrics** | Cross-platform content performance data | ✓ | [supermetrics.md](../../tools/integrations/supermetrics.md) |
+
+---
+
 ## Related Skills
 
 - **copywriting**: For writing individual content pieces

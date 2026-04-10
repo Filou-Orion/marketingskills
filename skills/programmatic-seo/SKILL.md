@@ -230,6 +230,19 @@ Watch for: Thin content warnings, Ranking drops, Manual actions, Crawl errors
 
 ---
 
+## Tool Integrations
+
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key SEO and publishing tools:
+
+| Tool | Best For | MCP | Guide |
+|------|----------|:---:|-------|
+| **Google Search Console** | Indexing status, search performance of pSEO pages | - | [google-search-console.md](../../tools/integrations/google-search-console.md) |
+| **DataforSEO** | SERP data and keyword data at scale | - | [dataforseo.md](../../tools/integrations/dataforseo.md) |
+| **Webflow** | No-code CMS for template-based pages | - | [webflow.md](../../tools/integrations/webflow.md) |
+| **WordPress** | CMS with programmatic publishing plugins | - | [wordpress.md](../../tools/integrations/wordpress.md) |
+
+---
+
 ## Related Skills
 
 - **seo-audit**: For auditing programmatic pages after launch

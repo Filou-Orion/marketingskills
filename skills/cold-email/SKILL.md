@@ -149,6 +149,20 @@ Use this data to inform your writing — not as a checklist to satisfy.
 
 ---
 
+## Tool Integrations
+
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key outreach tools:
+
+| Tool | Best For | MCP | Guide |
+|------|----------|:---:|-------|
+| **Hunter** | Email finding and verification | - | [hunter.md](../../tools/integrations/hunter.md) |
+| **Snov** | Email finding, drip campaigns | - | [snov.md](../../tools/integrations/snov.md) |
+| **Lemlist** | Personalized outreach sequences | - | [lemlist.md](../../tools/integrations/lemlist.md) |
+| **Instantly** | High-volume cold email at scale | - | [instantly.md](../../tools/integrations/instantly.md) |
+| **Apollo** | Prospecting + sequencing combined | - | [apollo.md](../../tools/integrations/apollo.md) |
+
+---
+
 ## Related Skills
 
 - **copywriting**: For landing pages and web copy

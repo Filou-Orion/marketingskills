@@ -351,6 +351,17 @@ Organized by:
 
 ---
 
+## Tool Integrations
+
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key analytics tools:
+
+| Tool | Best For | MCP | Guide |
+|------|----------|:---:|-------|
+| **PostHog** | Signup funnel analysis, session replay, feature flags | - | [posthog.md](../../tools/integrations/posthog.md) |
+| **Segment** | Event tracking across signup flow steps | - | [segment.md](../../tools/integrations/segment.md) |
+
+---
+
 ## References
 
 - [Flow Patterns](references/flow-patterns.md): Six signup flow architectures (single-step, social auth, multi-step, waitlist, product-first, guided) with wireframes, benchmarks, and anti-patterns

@@ -402,6 +402,20 @@ Same format as above
 
 ---
 
+## Tool Integrations
+
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key SEO tools:
+
+| Tool | Best For | MCP | Guide |
+|------|----------|:---:|-------|
+| **Google Search Console** | Search performance, indexing status, crawl errors | - | [google-search-console.md](../../tools/integrations/google-search-console.md) |
+| **Semrush** | Keyword research, competitor analysis, site audit | - | [semrush.md](../../tools/integrations/semrush.md) |
+| **Ahrefs** | Backlink analysis, content gap analysis | - | [ahrefs.md](../../tools/integrations/ahrefs.md) |
+| **DataforSEO** | SERP data and keyword data at scale | - | [dataforseo.md](../../tools/integrations/dataforseo.md) |
+| **Keywords Everywhere** | Search volume, CPC, competition data | - | [keywords-everywhere.md](../../tools/integrations/keywords-everywhere.md) |
+
+---
+
 ## Related Skills
 
 - **ai-seo**: For optimizing content for AI search engines (AEO, GEO, LLMO)
