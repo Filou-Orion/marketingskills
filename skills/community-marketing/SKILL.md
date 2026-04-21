@@ -144,6 +144,17 @@ Always be specific. Generic advice ("be consistent," "provide value") is not use
 
 ---
 
+## Task-Specific Questions
+
+1. What platform are you building on (or considering)?
+2. What stage is the community at? (Pre-launch, early, growing, established)
+3. What's the primary business goal? (Retention, activation, word-of-mouth, support deflection)
+4. Who is the ideal community member and what motivates them?
+5. Do you have existing users or customers to seed from?
+6. How much time can you dedicate to community management weekly?
+
+---
+
 ## Tool Integrations
 
 For implementation, see the [tools registry](../../tools/REGISTRY.md). Key community tools:
@@ -159,3 +170,12 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key commu
 
 - [Platform Comparison](references/platform-comparison.md): Detailed matrix of Discord, Slack, Circle, Reddit, Discourse, and Facebook Groups with decision framework and migration guidance
 - [Engagement Playbooks](references/engagement-playbooks.md): Stage-by-stage engagement tactics (0–50, 50–500, 500–5K, 5K+), recurring ritual templates, conversation starters, and power user identification
+
+---
+
+## Related Skills
+
+- **referral-program**: For structured referral and ambassador incentive programs
+- **churn-prevention**: For retention strategies that complement community engagement
+- **social-content**: For content creation across social platforms
+- **customer-research**: For understanding your community members' needs and language
