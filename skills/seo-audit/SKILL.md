@@ -446,26 +446,6 @@ Three equivalent placement methods: HTML `<link>` in `<head>`, HTTP `Link` heade
 
 ---
 
-## Tools Referenced
-
-**Free Tools**
-- Google Search Console (essential)
-- Google PageSpeed Insights
-- Bing Webmaster Tools
-- Rich Results Test (**use this for schema validation — it renders JavaScript**)
-- Mobile-Friendly Test
-- Schema Validator
-
-> **Note on schema detection:** `web_fetch` strips `<script>` tags (including JSON-LD) and cannot detect JS-injected schema. Use the browser tool, Rich Results Test, or Screaming Frog instead — they render JavaScript and capture dynamically-injected markup. See the Schema Markup Detection Limitation section above.
-
-**Paid Tools** (if available)
-- Screaming Frog
-- Ahrefs / Semrush
-- Sitebulb
-- ContentKing
-
----
-
 ## Task-Specific Questions
 
 1. What pages/keywords matter most?
@@ -482,11 +462,16 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key SEO t
 
 | Tool | Best For | MCP | Guide |
 |------|----------|:---:|-------|
-| **Google Search Console** | Search performance, indexing status, crawl errors | - | [google-search-console.md](../../tools/integrations/google-search-console.md) |
+| **Google Search Console** | Search performance, indexing, crawl errors | - | [google-search-console.md](../../tools/integrations/google-search-console.md) |
 | **Semrush** | Keyword research, competitor analysis, site audit | - | [semrush.md](../../tools/integrations/semrush.md) |
 | **Ahrefs** | Backlink analysis, content gap analysis | - | [ahrefs.md](../../tools/integrations/ahrefs.md) |
 | **DataforSEO** | SERP data and keyword data at scale | - | [dataforseo.md](../../tools/integrations/dataforseo.md) |
 | **Keywords Everywhere** | Search volume, CPC, competition data | - | [keywords-everywhere.md](../../tools/integrations/keywords-everywhere.md) |
+| **Google PageSpeed Insights** | Core Web Vitals, performance scoring | - | - |
+| **Rich Results Test** | Schema validation (renders JavaScript) | - | - |
+| **Screaming Frog** | Technical crawl audit, broken links | - | - |
+
+> **Schema detection note:** `web_fetch` strips `<script>` tags (including JSON-LD) and cannot detect JS-injected schema. Use the browser tool, Rich Results Test, or Screaming Frog instead.
 
 ---
 
