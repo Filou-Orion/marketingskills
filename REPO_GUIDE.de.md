@@ -6,7 +6,7 @@ Eine vollständige Evaluation des Repos und wie du es in der Praxis einsetzen ka
 
 **marketingskills** ist zweierlei in einem:
 
-1. **Eine Sammlung von 35 "Agent Skills"** für Marketing-Aufgaben, die der [Agent Skills Spec](https://agentskills.io/specification.md) folgen. Skills sind strukturiertes Wissen + Instruktionen, die KI-Agenten (Claude Code, Codex, Cursor, Windsurf, …) automatisch aktivieren, wenn du eine passende Marketing-Aufgabe beschreibst.
+1. **Eine Sammlung von 42 "Agent Skills"** für Marketing-Aufgaben, die der [Agent Skills Spec](https://agentskills.io/specification.md) folgen. Skills sind strukturiertes Wissen + Instruktionen, die KI-Agenten (Claude Code, Codex, Cursor, Windsurf, …) automatisch aktivieren, wenn du eine passende Marketing-Aufgabe beschreibst.
 2. **Ein Marketing-Tool-Registry** (`tools/`) mit 94 Tools: 61 zero-dependency CLI-Scripts, 45+ Integration-Guides, Composio-Layer für OAuth-Tools, und Verweisen auf native MCP-Server.
 
 Das Repo ist außerdem ein **Claude Code Plugin-Marketplace** (via `.claude-plugin/marketplace.json`), d.h. du kannst es in Claude Code mit einem Befehl installieren.
@@ -36,7 +36,7 @@ Nach Installation liegen die Skills unter `.agents/skills/` (Standardort) und tr
 
 ---
 
-## Die 35 Skills — was kannst du damit abdecken?
+## Die 42 Skills — was kannst du damit abdecken?
 
 ### Conversion Rate Optimization (7)
 
@@ -50,9 +50,9 @@ Nach Installation liegen die Skills unter `.agents/skills/` (Standardort) und tr
 | `popup-cro` | Popups, Modals, Exit-Intent |
 | `ab-test-setup` | Statistisch valide A/B-Tests planen |
 
-### SEO & Technical (5)
+### SEO & Discovery (6)
 
-`seo-audit` · `ai-seo` (LLM/ChatGPT-Sichtbarkeit) · `programmatic-seo` (Seiten at scale) · `schema-markup` (JSON-LD) · `site-architecture`
+`seo-audit` · `ai-seo` (LLM/ChatGPT-Sichtbarkeit) · `programmatic-seo` (Seiten at scale) · `schema-markup` (JSON-LD) · `site-architecture` · `aso-audit` (App Store Optimization)
 
 ### Paid Advertising (2)
 
@@ -62,9 +62,9 @@ Nach Installation liegen die Skills unter `.agents/skills/` (Standardort) und tr
 
 `email-sequence` (Lifecycle, Welcome, Nurture, Win-Back) · `cold-email` (Outbound-Sequenzen)
 
-### Content & Copy (4)
+### Content & Copy (6)
 
-`content-strategy` · `copywriting` · `copy-editing` (7-Sweeps-Framework) · `social-content` (LinkedIn/X/Insta/TikTok)
+`content-strategy` · `copywriting` · `copy-editing` (7-Sweeps-Framework) · `social-content` (LinkedIn/X/Insta/TikTok) · `image` (AI-Bildgenerierung, OG-Images) · `video` (AI-Video, Hyperframes, HeyGen)
 
 ### Customer Insight (1)
 
@@ -74,17 +74,17 @@ Nach Installation liegen die Skills unter `.agents/skills/` (Standardort) und tr
 
 `pricing-strategy` · `revops` (Lead Scoring, Lifecycle, Sales Handoff)
 
-### Awareness & Lead Gen (7)
+### Awareness & Lead Gen (9)
 
-`lead-magnets` · `free-tool-strategy` · `referral-program` · `competitor-alternatives` · `launch-strategy` (Product Hunt etc.) · `marketing-ideas` (139+ Taktiken) · `marketing-psychology`
+`lead-magnets` · `free-tool-strategy` · `referral-program` · `competitor-alternatives` · `launch-strategy` (Product Hunt etc.) · `marketing-ideas` (139+ Taktiken) · `marketing-psychology` · `directory-submissions` (Product Hunt, G2, AI-Verzeichnisse) · `webinar-marketing` (Planung, Promotion, Optimierung)
 
-### Sales & Positioning (2)
+### Sales & Positioning (3)
 
-`sales-enablement` (Decks, One-Pager, Objection Docs) · `product-marketing-context` (Fundament-Skill, wird von allen anderen gelesen)
+`sales-enablement` (Decks, One-Pager, Objection Docs) · `product-marketing-context` (Fundament-Skill, wird von allen anderen gelesen) · `competitor-profiling` (Wettbewerbsintelligenz via Firecrawl + DataForSEO)
 
-### Community (1)
+### Community & Partnerships (2)
 
-`community-marketing` (Discord, Slack, Circle, Reddit)
+`community-marketing` (Discord, Slack, Circle, Reddit) · `co-marketing` (Partner-Identifikation, Joint Campaigns)
 
 ### Analytics (1)
 
